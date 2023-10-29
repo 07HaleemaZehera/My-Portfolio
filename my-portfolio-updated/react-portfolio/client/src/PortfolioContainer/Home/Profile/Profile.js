@@ -38,7 +38,7 @@ export default function Profile() {
                     
                     "Full stack Developer",
                     1000,
-                    "MERN stack Dev",
+                    "MERN / MEAN stack Dev",
                     1000,
                  
                     
@@ -52,6 +52,7 @@ export default function Profile() {
           </div>
 
           <div className="profile-options">
+            <a href="https://docs.google.com/document/d/1n7hWYYFk3cYWhpjrgxRkoLKeXPokjTDU/edit?usp=drive_link&ouid=102079193388774772467&rtpof=true&sd=true" target="blank">
             <button
               className="btn primary-btn"
               onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
@@ -59,8 +60,10 @@ export default function Profile() {
             >
               Hire Me
             </button>
+            </a>
+            
 
-            <a href="https://drive.google.com/file/d/1rRReXzTPFhwhJXRrjedbMR97qdQhFmUJ/view?usp=share_link" target="_blank">
+            <a href="https://drive.google.com/file/d/1rqCYdAfWH2oWCmu4Gg5AQnFJJDO96yyG/view?usp=drive_link" target="_blank">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

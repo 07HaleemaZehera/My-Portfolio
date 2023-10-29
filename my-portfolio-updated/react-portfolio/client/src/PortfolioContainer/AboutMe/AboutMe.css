@@ -44,19 +44,41 @@
   font-size: 12px;
 }
 .highlight-blob {
-  height: 12px;
-  width: 12px;
+  height: 7px;
+  width: 2px;
   margin: 0 10px 0 0;
   background-color: #ff5823;
   border-radius: 50%;
+  /* border: 1px solid black; */
 }
 .about-me-options .highlighted-btn:hover {
   margin: 0 0 0 30px;
   color: rgb(75, 74, 74);
- 
 }
 
+.expirence-box {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+  height: 15%;
+}
 
+.exp-about-me-card {
+  display: flex;
+  width: 100%;
+  box-shadow: 0 0px 20px -2px #1f2235;
+}
+.exp-about-me-details {
+  width: 80%;
+  text-align: justify;
+  padding: 25px;
+}
+
+.exp-about-me-highlights {
+  margin: 30px 0;
+}
 
 @media only screen and (max-width: 1110px) {
   .about-me-parent {

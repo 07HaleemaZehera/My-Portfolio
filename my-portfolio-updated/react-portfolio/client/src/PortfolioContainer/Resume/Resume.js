@@ -56,14 +56,17 @@ const Resume = (props) => {
   const programmingSkillsDetails = [
     { skill: "Data structure and Algo" },
     { skill: "JavaScript" },
+    { skill: "Angular" },
     { skill: "React JS" },
+    { skill: "HTML" },
+    { skill: "CSS" },
     { skill: "Node JS" },
     { skill: "Express JS" },
     { skill: "Mongo DB" },
     { skill: "Postman" },
-    { skill: "HTML" },
-    { skill: "CSS" },
     { skill: "Material ui" },
+    { skill: "Git" },
+    { skill: "Bootstarp"},
   ];
 
   const projectsDetails = [
