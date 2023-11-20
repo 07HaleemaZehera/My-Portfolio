@@ -114,7 +114,7 @@ export default function AboutMe(props) {
               </button>
               </a>
               <a
-                href="https://drive.google.com/file/d/1rqCYdAfWH2oWCmu4Gg5AQnFJJDO96yyG/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1jONe_TooUrEelugEEdimyw8WSGSceybd/view?usp=sharing"
                 target="_blank"
               >
                 <button className="btn highlighted-btn">Get Resume</button>
